@@ -7,7 +7,7 @@ from pandas import DataFrame
 def init(options):
     '''Init connexion to Neptune...'''
     try: 
-        projects = neptune.init(project_qualified_name='davidgaut/'+options['name'], api_token='eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vdWkubmVwdHVuZS5haSIsImFwaV91cmwiOiJodHRwczovL3VpLm5lcHR1bmUuYWkiLCJhcGlfa2V5IjoiYzliMDgwMzctN2ViNy00NGRmLWExZjUtZmUwYjkwMDRhNjE2In0=')
+        projects = neptune.init(project_qualified_name='davidgaut/'+options['name'], api_token='put_your_neptune_apikey')
     except ValueError:
         print('NoConnexion to Neptune')
         projects = None
