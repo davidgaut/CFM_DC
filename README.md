@@ -7,4 +7,4 @@ The estimation is started in CFM_challenge.py
 
   - make_data.py processes .csv files into data_frame
   
-  - hypertune.py contains all function to hypertune lgb models based on timeseries crossvalidation
+  - hypertune.py contains all function to hypertune lgb models based on timeseries cross validation
